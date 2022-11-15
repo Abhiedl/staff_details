@@ -1,5 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:pine_app/detail_model.dart';
+import 'package:pine_app/database/detail_model.dart';
 
 abstract class CloudOperations {
   Future<void> createDetails(DetailsModel value);
